@@ -1,0 +1,168 @@
+	/*Vuurwerk*/
+
+	
+#bannerimage {
+  width: 100%;
+  background-image: url(https://invicdn.worldcdn.net/641698058/https/91.232.125.199/cmb.wales/wp-content/uploads/2018/10/1200x353xfirework-banner.jpg.pagespeed.ic.a9ofalwjUd.jpg);
+  height: 200px;
+  background-color: black;
+  background-position: center;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #252525;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #D8D8D8;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.container > div{
+	float: left;
+  display:grid;
+  height:400px;
+  width:315px;
+  background-color:white;
+  margin: 50px 0px 0px 50px;
+}
+
+.container{
+	padding-right: 10px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+	
+	img {
+	position: relative;
+	bottom: 50px;
+	padding: 0px;
+}
+
+	.right {
+	display: block;
+	float: right;
+	}
+	
+	.left {
+	display: block;
+	float: left;
+	}
+ 
+	
+	.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+	
+	h1 {
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	padding: 2px;
+	}
+	h2 {
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	padding: 2px;
+	}
+	h3 {
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	padding: 2px;
+	}
+	h4 {
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	padding: 2px;
+	}	h5 {
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	padding: 2px;
+	}	h6 {
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	padding: 2px;
+	}
+	
+	.header {
+	overflow: hidden;
+	background-color: #111111;
+	padding: 0px 0px;
+	height: 80px;
+	}
+
+	.header a {
+	float: auto;
+	color: gray;
+	text-align: bottom;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 35px;
+	line-height: 0px;
+	border-radius: 15px;
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: bold; 
+	line-height: 50px;
+}
+
+	.header a:hover {
+	color: black;
+	}
+
+	a {color:#FF0000;}
+	a:visited {color:#000000;}
+	a:hover {color:#FFFFFF;} 
+	a:active {color:#000000;}
+
+	html,body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	left: 0px;
+	top: 0px;
+	}
+	
+	body {
+	background-color: #353535;
+	margin-top: 0px;
+	}
